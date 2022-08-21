@@ -29,9 +29,9 @@
     align-items: center;
     background-color: #edf2f4;
     color: #2b2d42;
-    padding-left: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
 }
 .icon {
     width: 25%;
@@ -91,20 +91,31 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 25px;
-    padding-bottom: 25px;
-    padding-right: 25px;
     background-color: #8d99ae;
     color: #2b2d42;
-    padding-left: 50px;
-    padding-top: 50px;
+    padding: 25px;
 }
 .middle-content {
     display: grid;
     grid-template: repeat(3, minmax(50px, 1fr)) / repeat(2, minmax(100px, 1fr));
     gap: 25px;
 }
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #2b2d42;
+    box-shadow: 3px 3px 3px #2b2d42;
+}
 article p, .trending p {
     color: #edf2f4;
+}
+article img {
+    width: 25px;
+}
+article div {
+    align-self: end;
 }
 .side-wrapper {
     display: grid;
