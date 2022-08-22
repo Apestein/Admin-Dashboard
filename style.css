@@ -9,7 +9,7 @@
 }
 .main-container {
     display: grid;
-    grid-template: 1fr 3fr / 1fr 3fr;
+    grid-template: 1fr 4fr / 1fr 5fr;
     grid-template-areas: 
     'sidebar header'
     'sidebar content';
@@ -89,7 +89,7 @@
 .content {
     grid-area: content;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     gap: 25px;
     background-color: #8d99ae;
     color: #2b2d42;
